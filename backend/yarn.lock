@@ -14,6 +14,11 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@types/uuid@8.3.1":
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.1.tgz#1a32969cf8f0364b3d8c8af9cc3555b7805df14f"
+  integrity sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1110,6 +1115,19 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid@8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuidv4@^6.2.11:
+  version "6.2.11"
+  resolved "https://registry.yarnpkg.com/uuidv4/-/uuidv4-6.2.11.tgz#34d5a03324eb38296b87ae523a64233b5286cc27"
+  integrity sha512-OTS4waH9KplrXNADKo+Q1kT9AHWr8DaC0S5F54RQzEwcUaEzBEWQQlJyDUw/u1bkRhJyqkqhLD4M4lbFbV+89g==
+  dependencies:
+    "@types/uuid" "8.3.1"
+    uuid "8.3.2"
 
 vary@~1.1.2:
   version "1.1.2"
